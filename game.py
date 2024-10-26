@@ -13,6 +13,8 @@ class Game:
         self.screen = pygame.display.set_mode((self.screen_width, self.screen_height))
         self.clock = pygame.time.Clock()
 
+        pygame.display.set_caption('Asteroids!')
+
         self.start()
 
     def start(self):        
